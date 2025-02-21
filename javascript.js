@@ -12,7 +12,7 @@ function go() {
     mess.trim();
     
     var chat = document.createElement("div");
-    chat.innerHTML = mess;
+    chat.textContent = mess;
     var br = document.createElement("br");
     var logo1 = document.createElement("div");
     logo1.id = "userpic";
