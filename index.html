@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body id="body">
+
+    <div id="welcome">
+      
+     <h2 style="margin-left: 20px;">🏏 Welcome to Cricket Chatbot</h2>
+        <br>
+      <p style=" margin-left:110px"><b>What can I help with?</b></p>
+
+
+   
+    </div>
+
+
+
+   <div id="settings">
+   
+    <h2 style="margin-left: 100px; margin-top: 10px;"> Settings</h2>
+    <button style="position: relative; left: 253px; bottom: 35px;" id="x" onclick="cc()">X</button>
+    <h3 style="user-select: none;">  <i class="fa-solid fa-address-book"></i> About As</h3>
+    <h3 style="user-select: none;"> <i class="fa-solid fa-moon"></i>     Themes</h3>
+   </div>
+    <div id="con">
+        <div id="theme">
+            <i onclick="set()" style="margin: 15px; user-select: none;" class="fa-solid fa-bars"></i>
+            <h1 style="margin-left:182px; margin-top: 4px; user-select: none;" >Chat Bot</h1>
+    
+        </div>
+        <div id="chatarea">
+            <div id="scroll"></div>
+        </div>
+
+        <div id="typearea">
+            <input style="color: white;" type="text" id="user" placeholder="𝚃𝚢𝚙𝚎 𝚢𝚘𝚞𝚛 𝚝𝚎𝚡𝚝...." >
+            <button id="send" onclick="go()"><i style="color: white;" class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+
+
+
+</body>
+</html>
